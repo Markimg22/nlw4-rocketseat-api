@@ -6,7 +6,9 @@ app.get('/', (req, res) => {
   return res.json({ name: 'Marcos', lastName: 'Campos' });
 });
 
-app.post('/');
+app.post('/', (req,res) => {
+  
+});
 
 app.listen(3333, () => {
   console.log('Server is running!');
