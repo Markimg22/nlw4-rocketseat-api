@@ -22,13 +22,17 @@ module.exports = {
     ],
     'linebreak-style': [
       'error',
-      'windows'
+      'unix'
     ],
     'quotes': [
       'error',
       'single'
     ],
     'semi': [
+      'error',
+      'always'
+    ],
+    'eol-last': [
       'error',
       'always'
     ]
