@@ -35,6 +35,7 @@ module.exports = {
     'eol-last': [
       'error',
       'always'
-    ]
+    ],
+    '@typescript-eslint/ban-types': 'off'
   }
 };
